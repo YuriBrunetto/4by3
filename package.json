@@ -1,0 +1,20 @@
+{
+  "name": "4by3",
+  "version": "1.0.0",
+  "description": "Returns the 4:3 ratio value of a requested number",
+  "main": "./index.js",
+  "bin": {
+      "4by3": "./bin/index.js"
+  },
+  "keywords": [
+    "4by3",
+    "4:3",
+    "ratio",
+    "aspect"
+  ],
+  "author": "Yuri Brunetto (http://www.ybrntt.com.br)",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "^3.7.0"
+  }
+}
