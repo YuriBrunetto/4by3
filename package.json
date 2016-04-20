@@ -1,6 +1,6 @@
 {
   "name": "4by3",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Returns the 4:3 ratio value of a requested number",
   "main": "./index.js",
   "repository": {
