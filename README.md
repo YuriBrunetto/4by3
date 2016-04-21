@@ -14,4 +14,4 @@ You might require `sudo` to install globally.
 ```
 
 ## License
-MIT &copy; [Yuri Brunetto](https://github.com/YuriBrunetto/4by3/blob/master/LICENSE)
+MIT &copy; [Yuri Brunetto](http://www.ybrntt.com.br)
