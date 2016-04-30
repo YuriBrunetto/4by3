@@ -3,14 +3,19 @@
 
 ## Install
 ```bash
-[sudo] npm install -g 4by3
+$ [sudo] npm install -g 4by3
 ```
 You might require `sudo` to install globally.
 
 ## Usage
-### Terminal
+### 4:3
 ```bash
-4by3 800 # returns 600
+$ 4by3 800 # returns 600
+```
+
+### 16:9
+```bash
+$ 4by3 800 --wide # returns 450
 ```
 
 ## License

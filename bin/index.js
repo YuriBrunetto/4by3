@@ -4,12 +4,12 @@
 var fbt = require("..");
 var cli = require("meow")({
     pkg: "../package.json",
-    help: [
-        "Usage",
-        " $ 4by3 <number> [options]"
-    ].join("\n")
+    alias: {
+        wide: "widescreen"
+    }
 });
 
 var number = cli.input[0];
+var options = cli.flags;
 
-console.log(fbt(number));
+console.log(fbt(number, options));
