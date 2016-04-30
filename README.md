@@ -1,5 +1,5 @@
 # 4by3
-> :shipit: Returns the 4:3 ratio value of a requested number
+> :shipit: Returns the 4:3 or 16:9 ratio value of a requested number
 
 ## Install
 ```bash
