@@ -1,7 +1,5 @@
 "use strict";
 
-var toClipboard = require("to-clipboard");
-
 module.exports = function(number, options) {
     var result;
 
@@ -11,9 +9,6 @@ module.exports = function(number, options) {
         result = (number / 4) * 3;
 
     if (!isNaN(result)) {
-        toClipboard.sync(result.toString());
-        setTimeout(function(){ console.log("Result copied to clipboard!"); }, 300);
-
         if (options.wide)
             return "16:9 -> " + result;
         else
