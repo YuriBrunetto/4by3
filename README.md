@@ -1,6 +1,6 @@
 # 4by3
 [![Build Status](https://travis-ci.org/YuriBrunetto/4by3.svg?branch=master)](https://travis-ci.org/YuriBrunetto/4by3)
-> :shipit: Returns the 4:3 or 16:9 ratio value of a requested number
+> :shipit: Returns the 4:3, 16:9 or 21:9 ratio value of a requested number
 
 ## Install
 ```bash
@@ -17,6 +17,11 @@ $ 4by3 800 # returns 600
 ### 16:9
 ```bash
 $ 4by3 800 --wide # returns 450
+```
+
+### 21:9
+```bash
+$ 4by3 210 --wide # returns 90
 ```
 
 ## License

@@ -5,7 +5,8 @@ var fbt = require("..");
 var cli = require("meow")({
     pkg: "../package.json",
     alias: {
-        wide: "widescreen"
+        wide: "widescreen",
+        ultrawide: "ultra"
     }
 });
 
