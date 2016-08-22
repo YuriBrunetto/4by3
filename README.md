@@ -21,7 +21,7 @@ $ 4by3 800 --wide # returns 450
 
 ### 21:9
 ```bash
-$ 4by3 210 --wide # returns 90
+$ 4by3 210 --ultrawide # returns 90
 ```
 
 ## License
