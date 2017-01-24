@@ -1,5 +1,5 @@
 module.exports = function(number, options) {
-  let result = 0
+  var result = 0
 
   if (options.wide)
     result = (number / 16) * 9
