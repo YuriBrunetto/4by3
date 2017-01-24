@@ -1,6 +1,6 @@
 {
   "name": "4by3",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Returns the 4:3, 16:9 or 21:9 ratio value of a requested number",
   "main": "./index.js",
   "scripts": {
