@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = function(number, options) {
-  let result
+  let result = 0
 
   if (options.wide)
     result = (number / 16) * 9
