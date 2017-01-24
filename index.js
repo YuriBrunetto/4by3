@@ -1,7 +1,6 @@
-'use strict'
-let result = 0
-
 module.exports = function(number, options) {
+  let result = 0
+
   if (options.wide)
     result = (number / 16) * 9
   else if (options.ultrawide)
