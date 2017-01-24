@@ -16,6 +16,6 @@ module.exports = function(number, options) {
     else
       return '4:3 -> ' + result
   } else {
-    return `Error! ${number} is not a number.`
+    return 'Error! ' + number + ' is not a number.'
   }
 }
