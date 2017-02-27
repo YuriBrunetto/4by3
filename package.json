@@ -1,10 +1,11 @@
 {
   "name": "4by3",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Returns the 4:3, 16:9 or 21:9 ratio value of a requested number",
   "main": "./index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "deploy": "git push && npm publish"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   "author": "Yuri Brunetto (https://www.ybrntt.com.br)",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^1.1.3",
     "meow": "^3.7.0"
   },
   "devDependencies": {

@@ -9,8 +9,11 @@ const cli = require('meow')({
     ultrawide: 'ultra'
   }
 })
+const chalk = require('chalk')
 
 const number = cli.input[0]
 const options = cli.flags
 
-console.log(fbt(number, options))
+const msg = chalk.magenta(fbt(number, options))
+
+console.log(msg)
